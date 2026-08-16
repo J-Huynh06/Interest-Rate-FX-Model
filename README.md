@@ -1,5 +1,4 @@
-** NOTE: THE API KEY HAS BEEN REMOVED FROM THE CODE. TO RUN THE CODE GENERATE YOUR OWN FRED API KEY AND PASTE INTO THE uk_params AND us_params DICTIONARY WHICH CAN BE LOCATED IN THE 2ND CELL OF macro_fx_backtest.ipynb
-**
+>**NOTE: THE API KEY HAS BEEN REMOVED FROM THE CODE. TO RUN THE CODE GENERATE YOUR OWN FRED API KEY AND PASTE INTO THE uk_params AND us_params DICTIONARY WHICH CAN BE LOCATED IN THE 2ND CELL OF macro_fx_backtest.ipynb**
 > **Key Features:**
 1. **Data collection and processing:** Live macroeconomic data is fetched using yfinance and FRED's API. Pandas was used to clean data and to calculate new metrics
 2. **Regression Analysis:** Uses OLS to determine if our chosen macroeconomic data has a statistically significant impact on FX returns for trading and to calculate the sensitivity of FX returns after changes to interest rate spreads
